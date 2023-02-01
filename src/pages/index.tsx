@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { Slide } from '@/components/Slide';
 import { TravelTypes } from '@/components/TravelTypes';
 import { Box, Center, Divider, Flex, Text, theme } from "@chakra-ui/react";
 import Image from "next/image";
@@ -19,6 +20,7 @@ export default function Home() {
         <Text fontSize={30}>Vamos nessa?</Text>
         <Text fontSize={30}>Então escolha o seu continente</Text>
       </Flex>
+      <Slide />
     </Box>
   );
 }
