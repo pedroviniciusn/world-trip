@@ -1,17 +1,16 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 import imageEurope from "../../../public/images_project/slide_continents/europe.png";
 
-// Import Swiper styles
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
-import Image from "next/image";
 
 export function Slide() {
   return (
@@ -37,7 +36,7 @@ export function Slide() {
             <Heading color="light.900" fontSize="40">
               Europa
             </Heading>
-            <Text color="light.900" fontSize="20" >
+            <Text color="light.900" fontSize="20">
               O continente mais antigo.
             </Text>
           </Flex>
