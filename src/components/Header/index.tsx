@@ -31,7 +31,7 @@ export function Header() {
         mx="auto"
         alignItems="center"
       >
-        <Box position="absolute" zIndex="100" ml={20}>
+        <Box position="absolute" ml={20}>
           <Link href="/">
             <Button
               iconSpacing={0}

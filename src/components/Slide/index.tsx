@@ -29,8 +29,8 @@ export function Slide() {
           <Flex
             flexDirection="column"
             position="absolute"
-            top="175px"
-            right="460px"
+            top="40%"
+            right="41%"
             textAlign="center"
           >
             <Heading color="light.900" fontSize="40">
