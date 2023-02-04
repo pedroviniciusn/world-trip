@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { Cities } from './Cities';
 import { Info } from './Info';
 
-import europe from "../../../public/images_project/pages_cities/europe/europe.png";
+import europe from "../../../public/images_project/pages_countries/europe/europe.png";
 
 export default function Europe() {
   return (
