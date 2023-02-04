@@ -1,17 +1,18 @@
-import { Box } from '@chakra-ui/react';
-import Image, { StaticImageData } from 'next/image';
+import { Box, Image } from '@chakra-ui/react';
 import Link from 'next/link';
 import { FunctionComponent } from 'react';
 
+
 interface ILogo {
-  src: string | StaticImageData;
+  src: string;
+  alt: string;
 }
 
-const Logo: FunctionComponent<ILogo> = ({src}) => {
+const Logo: FunctionComponent<ILogo> = ({src, alt}) => {
   return (
     <Box width="100%" display="flex" alignItems="center" justifyContent="center">
       <Link href="/">
-        <Image src={src} alt="Logo" width="100"/>
+        <Image src={src} alt={alt} width={110} />
       </Link>
     </Box>
   )

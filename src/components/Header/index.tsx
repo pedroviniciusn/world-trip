@@ -31,7 +31,7 @@ export function Header() {
         mx="auto"
         alignItems="center"
       >
-        <Box position="absolute" ml={20}>
+        <Box position="absolute" pl="135px">
           <Link href="/">
             <Button
               iconSpacing={0}
@@ -43,7 +43,7 @@ export function Header() {
           </Link>
         </Box>
 
-        <Logo src={logo} />
+        <Logo src={logo.src} alt='Logo'/>
       </Flex>
     );
   }
@@ -57,7 +57,7 @@ export function Header() {
       mx="auto"
       alignItems="center"
     >
-      <Logo src={logo} />
+      <Logo src={logo.src} alt='Logo'/>
     </Flex>
   );
 }

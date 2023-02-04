@@ -1,12 +1,11 @@
 import React, { useRef, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
 
 import imageEurope from "../../../public/images_project/slide_continents/europe.png";
 
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Image } from "@chakra-ui/react";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -25,7 +24,7 @@ export function Slide() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image src={imageEurope} alt="europe" />
+          <Image src={imageEurope.src} alt="Europe"/>
           <Flex
             flexDirection="column"
             position="absolute"
