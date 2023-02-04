@@ -10,6 +10,7 @@ import { Box, Flex, Heading, Text, Image } from "@chakra-ui/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Link from "next/link";
 
 export function Slide() {
   return (
@@ -24,21 +25,23 @@ export function Slide() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image src={imageEurope.src} alt="Europe"/>
-          <Flex
-            flexDirection="column"
-            position="absolute"
-            top="40%"
-            right="41%"
-            textAlign="center"
-          >
-            <Heading color="light.900" fontSize="40">
-              Europa
-            </Heading>
-            <Text color="light.900" fontSize="20">
-              O continente mais antigo.
-            </Text>
-          </Flex>
+          <Link href="/europe">
+            <Image src={imageEurope.src} alt="Europe" />
+            <Flex
+              flexDirection="column"
+              position="absolute"
+              top="40%"
+              right="41%"
+              textAlign="center"
+            >
+              <Heading color="light.900" fontSize="40">
+                Europa
+              </Heading>
+              <Text color="light.900" fontSize="20">
+                O continente mais antigo.
+              </Text>
+            </Flex>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
       </Swiper>

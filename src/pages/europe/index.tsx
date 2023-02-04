@@ -10,7 +10,7 @@ export default function Europe() {
     <Box maxWidth={1480}>
       <Header />
       <Box width="100%">
-        <Image src={europe.src} alt="Europe"/>
+        <Image src={europe.src} width="100%" alt="Europe"/>
       </Box>
       <Flex align="center" justify="space-around" py={20} pr="45px" width="100%">
         <Box w={500}>

@@ -18,11 +18,11 @@ export function TravelTypes() {
       alignItems="center"
       justifyContent="space-between"
     >
-      <Types src={nightLife} alt="Night life" />
-      <Types src={beach} alt="Beach" />
-      <Types src={modern} alt="Modern" />
-      <Types src={classic} alt="Classic" />
-      <Types src={more} alt="More" />
+      <Types src={nightLife.src} alt="Night life" />
+      <Types src={beach.src} alt="Beach" />
+      <Types src={modern.src} alt="Modern" />
+      <Types src={classic.src} alt="Classic" />
+      <Types src={more.src} alt="More" />
     </Box>
   );
 }
