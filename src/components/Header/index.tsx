@@ -31,7 +31,7 @@ export function Header() {
         mx="auto"
         alignItems="center"
       >
-        <Box position="absolute" pl="135px">
+        <Box position="absolute" pl={{base: "5px", lg: "95px", xl: "115px",xl2: "135px"}}>
           <Link href="/">
             <Button
               iconSpacing={0}

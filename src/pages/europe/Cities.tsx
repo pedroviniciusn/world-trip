@@ -14,11 +14,30 @@ import holanda from "../../../public/images_project/pages_countries/europe/holan
 
 export function Cities() {
   return (
-    <Box px={{base: "20px", sm: "44px", xl: "140px"}}>
-      <Heading fontSize={{sm: "20px",md: "25px",lg: "30px",xl: "36px"}} fontWeight="medium" pb={{sm: "20px",md: "25px",lg: "35px",xl: "40px"}} color="dark.500">
+    <Box
+      px={{
+        base: "10px",
+        sm: "20px",
+        md: "110px",
+        lg: "130px",
+        xl: "140px",
+        xl2: "140px",
+      }}
+    >
+      <Heading
+        fontSize={{ sm: "20px", md: "25px", lg: "30px", xl: "36px" }}
+        fontWeight="medium"
+        pb={{ sm: "20px", md: "25px", lg: "35px", xl: "40px" }}
+        color="dark.500"
+      >
         Cidades +100
       </Heading>
-      <SimpleGrid columns={{ md: 2, lg: 2, xl: 4, xl2: 4 }} spacing={10}>
+      <SimpleGrid
+        columns={{ md: 2, lg: 2, xl: 4, xl2: 4 }}
+        spacing={10}
+        w={{ base: "70%", sm: "73%", md: "90%", lg: "90%", xl: "100%", xl2: "100%" }}
+        margin="0 auto"
+      >
         <CardCities
           city="Londres"
           country="Reino Unido"
