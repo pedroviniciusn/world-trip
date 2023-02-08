@@ -37,6 +37,7 @@ export function Cities() {
         spacing={10}
         w={{ base: "70%", sm: "73%", md: "90%", lg: "90%", xl: "100%", xl2: "100%" }}
         margin="0 auto"
+        pb={10}
       >
         <CardCities
           city="Londres"

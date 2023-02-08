@@ -1,10 +1,4 @@
-import {
-  Box,
-  Flex,
-  Text,
-  Image,
-  useMediaQuery,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, Image, useMediaQuery } from "@chakra-ui/react";
 import { Header } from "@/components/Header";
 import { Cities } from "./Cities";
 import { Info } from "./Info";
@@ -52,8 +46,8 @@ export default function Europe() {
           xl2: "center",
         }}
         justify="space-around"
-        p={{ base: 5, sm: 5, md: 10, lg: 10, xl: 10, xl2: 10 }}
-        pb={{base: 10, sm: 10}}
+        p={{ base: 5, sm: 5, md: 8, lg: 8, xl: 8, xl2: 8 }}
+        pb={{ base: 10, sm: 10 }}
         width="100%"
       >
         <Box maxWidth={500}>
@@ -70,10 +64,15 @@ export default function Europe() {
             o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
           </Text>
         </Box>
-        <Flex alignItems="center" justify="space-between" maxW={400}>
+        <Flex alignItems="center" justify="space-between" maxW={490}>
           <Info text_one="50" text_two="países" />
           <Info text_one="60" text_two="línguas" />
-          <Info text_one="27" text_two="cidades +100" />
+          <Info
+            text_one="27"
+            text_two="cidades +100"
+            info={true}
+            label_info="mais de 100 cidades"
+          />
         </Flex>
       </Flex>
       <Cities />

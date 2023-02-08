@@ -6,7 +6,7 @@ import imageEurope from "../../../public/images_project/slide_continents/europe.
 import imageEuropeMobile from "../../../public/images_project/slide_continents/europe_mobile.png";
 
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
-import { Box, Flex, Heading, Text, Image, useMediaQuery } from "@chakra-ui/react";
+import { Box, Image, useMediaQuery } from "@chakra-ui/react";
 
 import Link from "next/link";
 
