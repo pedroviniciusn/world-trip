@@ -3,7 +3,6 @@ import {
   Flex,
   Text,
   Image,
-  useBreakpointValue,
   useMediaQuery,
 } from "@chakra-ui/react";
 import { Header } from "@/components/Header";
